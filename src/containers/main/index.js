@@ -13,7 +13,7 @@ class Main extends Component {
     super(props);
     this.state = {
       grids: [],
-      size: 10,
+      size: 50,
     };
   }
 
