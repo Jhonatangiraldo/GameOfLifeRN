@@ -11,8 +11,6 @@ import {
 import Main from './src/containers/main';
 
 export default App = () =>
-  (
-    <View style={{ flex: 1 }} >
-      <Main />
-    </View>
-  );
+  (<View style={{ flex: 1 }} >
+    <Main />
+  </View>);

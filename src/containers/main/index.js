@@ -3,9 +3,9 @@ import {
   View
 } from 'react-native';
 import Title from '../../components/title';
-import GridsContainer from '../grids';
-import styles from './styles';
+import GridsContainer from '../gridsContainer';
 import { fillArray, setInitialLife } from '../../utils';
+import styles from './styles';
 
 class Main extends Component {
 
