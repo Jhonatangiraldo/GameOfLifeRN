@@ -6,12 +6,10 @@ import {
 import styles from './styles';
 
 const Title = ({ title }) =>
-  (
-    <View style={styles.wrapperTitle}>
-      <Text style={styles.title}>
-        {title}
-      </Text>
-    </View>
-  );
+  (<View style={styles.wrapperTitle}>
+    <Text style={styles.title}>
+      {title}
+    </Text>
+  </View>);
 
 export default Title;
