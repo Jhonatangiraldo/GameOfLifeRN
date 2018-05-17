@@ -37,7 +37,3 @@ To test
 ```
 npm test
 ```
-To generate documentation
-```
-./node_modules/.bin/jsdoc filename.js
-```
